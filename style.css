@@ -1,0 +1,140 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* App Container */
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #2c503c, #bdc3c7);
+  }
+  
+  /* Header */
+  .header {
+    color: white;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  /* Card */
+  .card {
+    background: linear-gradient(135deg, #4a90e2, #50b3c8);
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    padding: 20px;
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+    color: white;
+  }
+  
+  /* Search */
+  .search {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .search input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 10px 0 0 10px;
+    font-size: 16px;
+  }
+  
+  .search button {
+    background: #2980b9;
+    border: none;
+    border-radius: 0 10px 10px 0;
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+  
+  .search button img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  /* Error */
+  .error {
+    display: none;
+    color: #e74c3c;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  /* Weather Details */
+  .weather {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .weather-icon {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .temp {
+    font-size: 48px;
+    margin-bottom: 10px;
+  }
+  
+  .city {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .details {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  
+  .col {
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .col img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+  
+  .advice {
+    margin-top: 20px;
+    font-size: 16px;
+    color: white;
+  }
+  
+  /* Additional Styling for Multiple Cards */
+  .cards-container {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .card:nth-child(1) {
+    background: linear-gradient(135deg, #34495e, #2c3e50);
+  }
+  
+  .card:nth-child(2) {
+    background: linear-gradient(135deg, #f39c12, #f1c40f);
+  }
+  
+  .card:nth-child(3) {
+    background: linear-gradient(135deg, #8e44ad, #9b59b6);
+  }
+  
+  
